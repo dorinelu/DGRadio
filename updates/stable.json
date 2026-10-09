@@ -3,8 +3,8 @@
   "app": "DGRadio",
   "channel": "public",
   "version": "0.2-r49",
-  "release": "INTERNAL TEST",
-  "display_version": "0.2-r49 (temporary update test)",
+  "release": "RC TEST",
+  "display_version": "0.2-r49",
   "published_at": "2026-10-09",
   "changelog": [
     "Spanish station list updated (r46)",
@@ -13,10 +13,10 @@
     "Settings: red Cancel, green Save and yellow Check for Updates buttons",
     "Settings: clearer front-panel display detection information"
   ],
-  "ipk_url": "https://raw.githubusercontent.com/dorinelu/DGRadio/main/enigma2-plugin-extensions-dgradio_0.2-r49-internal_all.ipk",
-  "ipk_filename": "enigma2-plugin-extensions-dgradio_0.2-r49-internal_all.ipk",
+  "ipk_url": "https://raw.githubusercontent.com/dorinelu/DGRadio/main/enigma2-plugin-extensions-dgradio_0.2-r49_all.ipk",
+  "ipk_filename": "enigma2-plugin-extensions-dgradio_0.2-r49_all.ipk",
   "size_bytes": 643484,
   "sha256": "81594c31d0365ea2079e02256b3756e22f6470fba85e767f972060c0f8e778a0",
   "notes_url": "https://github.com/dorinelu/DGRadio",
-  "internal": true
+  "internal": false
 }
