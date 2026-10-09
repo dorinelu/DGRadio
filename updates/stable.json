@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "app": "DGRadio",
+  "channel": "public",
+  "version": "0.2-r45",
+  "release": "RC1",
+  "display_version": "0.2-r45 RC1",
+  "published_at": "2026-10-09",
+  "changelog": [
+    "New DG Radio branding and plugin icon",
+    "Optimized 345 x 270 fallback artwork",
+    "Wider playlist and improved alignment",
+    "Persistent station logo caching",
+    "Reduced installation package size"
+  ],
+  "ipk_url": "https://raw.githubusercontent.com/dorinelu/DGRadio/main/enigma2-plugin-extensions-dgradio_0.2-r45_all.ipk",
+  "ipk_filename": "enigma2-plugin-extensions-dgradio_0.2-r45_all.ipk",
+  "size_bytes": 636190,
+  "sha256": "3dab7abe7e1ea8a2564c9a75f86916f7152e6593306f7da1ebf54631159d23aa",
+  "notes_url": "https://github.com/dorinelu/DGRadio/blob/main/docs/releases/v0.2-r45-rc1.md",
+  "internal": false
+}
