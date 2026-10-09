@@ -3,28 +3,31 @@
 DG Radio is a Winamp Classic-inspired internet radio player for Enigma2 receivers.
 
 ## Features
-
 - Multi-country internet radio station lists
 - Now Playing metadata and album artwork
 - Station logos with persistent local caching
 - Weather information
-- Classic-inspired playback controls and interface
-- MP3, AAC and AAC+ playback (subject to receiver image and multimedia components)
+- Winamp-inspired interface and playback controls
+- MP3, AAC and AAC+ playback (depending on receiver codecs)
+- Built-in Update Manager with manual and optional automatic checking
 
 ## Compatibility
+Developed and tested on Vu+ Solo 4K with OpenATV and OpenBH. Other Enigma2 images and receivers may work; feedback is welcome.
 
-Developed and tested on Vu+ Solo 4K with OpenATV and OpenBH. Other Enigma2 images and receivers may work; community feedback is welcome.
+## Current public version
+**DG Radio v0.2-r50 RC2** — the first release including the built-in Update Manager.
 
-## Releases and updates
+Users of RC1 or earlier need to install r50 manually once. Later updates can be offered inside DG Radio via **Settings → YELLOW (Check for Updates)**. Installation requires user confirmation.
 
-The current public testing version is **v0.2-r45 RC1**. Public IPK releases will be distributed using GitHub Releases once the release assets are uploaded and verified.
+- [RC2 release notes](docs/releases/v0.2-r50-rc2.md)
+- [Public update manifest](updates/stable.json)
+- [Update security policy](docs/UPDATE_SECURITY.md)
+- [Privacy and optional usage statistics policy](docs/PRIVACY.md)
 
-A future DG Radio Update Manager will check `updates/stable.json` for published updates. **Automatic checking and in-app installation are not implemented yet.** Internal development builds will not appear on the stable channel.
+The public IPK is currently hosted in this repository; future versioned assets are planned for GitHub Releases. Download counts from Releases are not the same as installations. **No unique-installation telemetry service is implemented at present.**
 
 ## Community contributions
-
-Radio station suggestions, tested stream URLs, logos, bug reports and language contributions are welcome.
+New radio stations, tested stream URLs, logos, translations and bug reports are welcome.
 
 ## Credits
-
-© DG Labs by Dorinelu. Developed with AI assistance by ChatGPT.
+© DG LABS by Dorinelu. Developed with AI assistance from ChatGPT.
