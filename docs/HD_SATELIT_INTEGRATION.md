@@ -2,8 +2,8 @@
 
 Official public baseline: **v0.2-r50 RC2**. Do not package r63 or experimental builds.
 
-## Source-build prerequisite
-The current repository contains a prebuilt IPK but does **not yet contain the complete DGRadio source tree**. This is **not yet source-build ready**. Obtain and review the exact r50 sources (Python, JSON, skins, images and required assets) before producing a feed recipe.
+## Published r50 source
+The exact r50 source tree was extracted from the official r50 IPK and committed under `source/DGRadio/` in commit `942364b2cb7de7bfc7452a608687adda99ef612b`. It contains the Python code, JSON lists, images, and bundled font. HD Satelit must still validate its downstream package build on supported hardware.
 
 ## Package behavior
 - Preserve the DG LABS by Dorinelu author attribution and repository URL.
@@ -13,4 +13,4 @@ The current repository contains a prebuilt IPK but does **not yet contain the co
 - Ensure that the package does not overwrite personal Enigma2 configuration or station favorites.
 
 ## Release gate
-Do not distribute a source-built package until the source tree, asset provenance, dependency list and licensing are reviewed and a reproducible build is verified. Pin the feed recipe to a reviewed commit or immutable tag.
+The source tree is published; HD Satelit should still review dependencies, third-party asset notices, and verify its feed package build before distributing. Pin the feed recipe to a reviewed commit or immutable tag.
