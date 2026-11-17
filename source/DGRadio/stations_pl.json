@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "PL",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "rmffm",
+      "name": "RMF FM",
+      "group": "RMF",
+      "category": "Pop / Hits / Generalist",
+      "stream": "http://195.150.20.242:8000/rmf_fm",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rmf.fm"
+    },
+    {
+      "id": "radiozet",
+      "name": "Radio ZET",
+      "group": "Eurozet",
+      "category": "Pop / Generalist",
+      "stream": "http://zet-net-01.cdn.eurozet.pl:8400/",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radiozet.pl"
+    },
+    {
+      "id": "pr1",
+      "name": "Polskie Radio Jedynka",
+      "group": "Polskie Radio",
+      "category": "Public / Generalist / News",
+      "stream": "http://mp3.polskieradio.pl:8900/;.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://polskieradio.pl"
+    },
+    {
+      "id": "pr2",
+      "name": "Polskie Radio Dwójka",
+      "group": "Polskie Radio",
+      "category": "Public / Culture / Classical",
+      "stream": "http://mp3.polskieradio.pl:8902/;.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://polskieradio.pl"
+    },
+    {
+      "id": "pr3",
+      "name": "Polskie Radio Trójka",
+      "group": "Polskie Radio",
+      "category": "Public / Music / Talk",
+      "stream": "http://mp3.polskieradio.pl:8904/;.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://polskieradio.pl"
+    }
+  ]
+}

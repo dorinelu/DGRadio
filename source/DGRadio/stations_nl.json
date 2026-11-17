@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "NL",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "npor1",
+      "name": "NPO Radio 1",
+      "group": "NPO",
+      "category": "Public / News / Talk",
+      "stream": "http://icecast.omroep.nl/radio1-bb-mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nporadio1.nl"
+    },
+    {
+      "id": "npor2",
+      "name": "NPO Radio 2",
+      "group": "NPO",
+      "category": "Public / Pop / AC",
+      "stream": "http://icecast.omroep.nl/radio2-bb-mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nporadio2.nl"
+    },
+    {
+      "id": "npo3fm",
+      "name": "NPO 3FM",
+      "group": "NPO",
+      "category": "Public / Pop / Alternative",
+      "stream": "https://icecast.omroep.nl/3fm-bb-mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://npo3fm.nl"
+    },
+    {
+      "id": "npor5",
+      "name": "NPO Radio 5",
+      "group": "NPO",
+      "category": "Public / Oldies / AC",
+      "stream": "http://icecast.omroep.nl/radio5-bb-mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nporadio5.nl"
+    },
+    {
+      "id": "qmusicnl",
+      "name": "Qmusic",
+      "group": "DPG Media",
+      "category": "Pop / Hits",
+      "stream": "https://stream.qmusic.nl/qmusic/aachigh",
+      "codec": "AAC",
+      "bitrate_kbps": 96,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://qmusic.nl"
+    }
+  ]
+}

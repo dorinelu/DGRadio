@@ -1,0 +1,45 @@
+name: Publish r50 extracted source (review branch)
+on:
+  push:
+    branches: [prepare-r50-hdsatelit]
+    paths: [.github/workflows/publish-r50-source.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: prepare-r50-hdsatelit
+          persist-credentials: true
+      - name: Extract exact official r50 package
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .r50-extract source
+          cd .r50-extract
+          ar x ../enigma2-plugin-extensions-dgradio_0.2-r50_all.ipk
+          tar -xzf data.tar.gz
+          test -f usr/lib/enigma2/python/Plugins/Extensions/DGRadio/plugin.py
+          cp -a usr/lib/enigma2/python/Plugins/Extensions/DGRadio ../source/
+          cd ..
+          python3 - <<'PY'
+          from pathlib import Path
+          import ast, json
+          p=Path('source/DGRadio')
+          for f in p.glob('*.py'): ast.parse(f.read_text(encoding='utf-8'))
+          for f in p.glob('*.json'): json.loads(f.read_text(encoding='utf-8'))
+          print('Source files:',len(list(p.iterdir())))
+          PY
+      - name: Commit extracted source
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add source/
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish unmodified DG Radio r50 sources extracted from official IPK"
+            git push origin HEAD:prepare-r50-hdsatelit
+          fi

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "DE",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": true,
+    "official_or_direct_station_sources_only": true,
+    "receiver_verified": false
+  },
+  "stations": [
+    {
+      "id": "1live",
+      "name": "1LIVE",
+      "group": "WDR",
+      "category": "Public / Pop / Hits",
+      "stream": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/1LIVE%20Logo%202016.png"
+    },
+    {
+      "id": "wdr2",
+      "name": "WDR 2 Rheinland",
+      "group": "WDR",
+      "category": "Public / Adult Contemporary",
+      "stream": "https://wdr-wdr2-rheinland.icecastssl.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/WDR%202%20logo%202012.svg?width=512"
+    },
+    {
+      "id": "swr3",
+      "name": "SWR3",
+      "group": "SWR",
+      "category": "Public / Pop / Rock / Hits",
+      "stream": "https://liveradio.swr.de/sw282p3/swr3/play.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://static.tuneyou.com/images/logos/500_500/21/7621/SWR3.png"
+    },
+    {
+      "id": "ndr2",
+      "name": "NDR 2",
+      "group": "NDR",
+      "category": "Public / Pop / Rock",
+      "stream": "https://www.ndr.de/resources/metadaten/audio/m3u/ndr2.m3u",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://logowik.com/content/uploads/images/ndr-27841.logowik.com.webp"
+    },
+    {
+      "id": "njoy",
+      "name": "N-JOY",
+      "group": "NDR",
+      "category": "Public / Charts / Hits",
+      "stream": "https://www.ndr.de/resources/metadaten/audio/m3u/n-joy.m3u",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://static.mytuner.mobi/media/tvos_radios/550/n-joy-radio.4de9599d.png"
+    },
+    {
+      "id": "bayern3",
+      "name": "BAYERN 3",
+      "group": "BR",
+      "category": "Public / Pop / Hits",
+      "stream": "https://streams.br.de/bayern3_2.m3u",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bayern%203%20Logo%202025.svg?width=512"
+    },
+    {
+      "id": "antennebayern",
+      "name": "ANTENNE BAYERN",
+      "group": "Commercial",
+      "category": "Mainstream Hits",
+      "stream": "https://stream.antenne.de/antenne/stream/mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "verified": true,
+      "logo": "https://cdn.freebiesupply.com/logos/large/2x/antenne-bayern-logo-png-transparent.png"
+    },
+    {
+      "id": "ffh",
+      "name": "HIT RADIO FFH",
+      "group": "Commercial",
+      "category": "Mainstream Hits",
+      "stream": "http://mp3.ffh.de/radioffh/hqlivestream.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://vignette.wikia.nocookie.net/logopedia/images/b/bb/Hit_Radio_FFH_-_Logo_Neu.svg.png/revision/latest/scale-to-width-down/2000?cb=20200428184623"
+    },
+    {
+      "id": "ffn",
+      "name": "radio ffn",
+      "group": "Commercial",
+      "category": "Mainstream / Pop",
+      "stream": "https://player.ffn.de/radioffn.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "verified": true,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Radio_FFN_Logo_2015.svg/960px-Radio_FFN_Logo_2015.svg.png"
+    },
+    {
+      "id": "energyberlin",
+      "name": "ENERGY Berlin",
+      "group": "Commercial / Berlin",
+      "category": "Contemporary Hits",
+      "stream": "http://nrj.de/berlin",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://cdn-profiles.tunein.com/s11067/images/logog.png?t=1"
+    },
+    {
+      "id": "rtl1046",
+      "name": "104.6 RTL",
+      "group": "Commercial / Berlin",
+      "category": "Mainstream Hits",
+      "stream": "https://stream.104.6rtl.com/rtl-live/mp3-192/play.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 192,
+      "verified": true,
+      "logo": "https://images.seeklogo.com/logo-png/48/1/104-6-rtl-logo-png_seeklogo-489377.png?v=1957786894106827880"
+    },
+    {
+      "id": "radioeins",
+      "name": "radioeins",
+      "group": "rbb / Berlin",
+      "category": "Public / Music / Culture",
+      "stream": "https://radioeins.de/stream",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.rbb-online.de/content/dam/rbb/rbb/logos/radio/radioeins_logo.jpg.jpg/size%3D708x398.jpg"
+    },
+    {
+      "id": "rbb888",
+      "name": "rbb 88.8",
+      "group": "rbb / Berlin",
+      "category": "Public / Generalist / Music",
+      "stream": "http://www.rbb888.de/livemp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://cdn-profiles.tunein.com/s25677/images/logog.png?t=1"
+    },
+    {
+      "id": "dlf",
+      "name": "Deutschlandfunk",
+      "group": "Deutschlandradio",
+      "category": "Public / News / Talk",
+      "stream": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://epicenter.works/fileadmin/_processed_/8/b/csm_deutschlandfunk-logo_ea6e86cbd5.png"
+    }
+  ]
+}

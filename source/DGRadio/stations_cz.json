@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "CZ",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "evropa2",
+      "name": "Evropa 2",
+      "group": "Active Radio",
+      "category": "Pop / Hits",
+      "stream": "https://ice.actve.net/fm-evropa2-128",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://evropa2.cz"
+    },
+    {
+      "id": "cro1",
+      "name": "ČRo Radiožurnál",
+      "group": "Český rozhlas",
+      "category": "Public / News / Generalist",
+      "stream": "http://icecast6.play.cz/cro1-128.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://irozhlas.cz"
+    },
+    {
+      "id": "cro2",
+      "name": "ČRo Dvojka",
+      "group": "Český rozhlas",
+      "category": "Public / Generalist",
+      "stream": "http://icecast6.play.cz/cro2-128.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://dvojka.rozhlas.cz"
+    },
+    {
+      "id": "cro3",
+      "name": "ČRo Vltava",
+      "group": "Český rozhlas",
+      "category": "Public / Culture / Classical",
+      "stream": "http://icecast6.play.cz/cro3-128.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://vltava.rozhlas.cz"
+    },
+    {
+      "id": "croplus",
+      "name": "ČRo Plus",
+      "group": "Český rozhlas",
+      "category": "Public / News / Talk",
+      "stream": "http://icecast6.play.cz/croplus128.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://plus.rozhlas.cz"
+    }
+  ]
+}

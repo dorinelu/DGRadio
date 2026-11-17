@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "GR",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "rythmos949",
+      "name": "Rythmos 94.9",
+      "group": "Commercial",
+      "category": "Greek Pop / Hits",
+      "stream": "http://stream.radiojar.com/aw1w2xfx1vduv",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rythmosfm.gr"
+    },
+    {
+      "id": "ertproto",
+      "name": "ERT Proto",
+      "group": "ERT",
+      "category": "Public / News / Generalist",
+      "stream": "https://radiostreaming.ert.gr/ert-proto",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://ertecho.gr"
+    },
+    {
+      "id": "ertdeftero",
+      "name": "ERT Deftero",
+      "group": "ERT",
+      "category": "Public / Greek Music",
+      "stream": "https://radiostreaming.ert.gr/ert-deftero",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://ertecho.gr"
+    },
+    {
+      "id": "erttrito",
+      "name": "ERT Trito",
+      "group": "ERT",
+      "category": "Public / Classical / Culture",
+      "stream": "https://radiostreaming.ert.gr/ert-trito",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://ertecho.gr"
+    },
+    {
+      "id": "ertkosmos",
+      "name": "ERT Kosmos",
+      "group": "ERT",
+      "category": "Public / World Music",
+      "stream": "https://radiostreaming.ert.gr/ert-kosmos",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://ertecho.gr"
+    }
+  ]
+}

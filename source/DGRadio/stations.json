@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.0",
+  "country": "RO",
+  "updated": "2026-10-02",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": true,
+    "official_or_direct_station_sources_only": true,
+    "receiver_verified": true
+  },
+  "stations": [
+    {
+      "id": "kissfm",
+      "name": "Kiss FM",
+      "group": "Commercial",
+      "category": "Mainstream Hits",
+      "stream": "https://live.kissfm.ro/kissfm.aacp",
+      "codec": "AAC",
+      "bitrate_kbps": 80,
+      "icy_metaint": 16384,
+      "verified": true
+    },
+    {
+      "id": "magicfm",
+      "name": "Magic FM",
+      "group": "Commercial",
+      "category": "Adult Contemporary",
+      "stream": "https://live.magicfm.ro/magicfm.aacp",
+      "codec": "AAC",
+      "bitrate_kbps": 80,
+      "icy_metaint": 16384,
+      "verified": true
+    },
+    {
+      "id": "rockfm",
+      "name": "Rock FM",
+      "group": "Commercial",
+      "category": "Rock",
+      "stream": "https://live.rockfm.ro/rockfm.aacp",
+      "codec": "AAC",
+      "bitrate_kbps": 80,
+      "icy_metaint": 16384,
+      "verified": true
+    },
+    {
+      "id": "radiozu",
+      "name": "Radio ZU",
+      "group": "Commercial",
+      "category": "Mainstream Hits",
+      "stream": "http://zuicast.digitalag.ro:9420/zu",
+      "codec": "AAC+",
+      "bitrate_kbps": 96,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "virginradio",
+      "name": "Virgin Radio România",
+      "group": "Commercial",
+      "category": "Contemporary Hits",
+      "stream": "https://astreaming.edi.ro:8443/VirginRadio_aac",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "radioimpuls",
+      "name": "Radio Impuls",
+      "group": "Commercial",
+      "category": "Mainstream / Entertainment",
+      "stream": "https://live.radio-impuls.ro/stream",
+      "codec": "MP3",
+      "bitrate_kbps": 192,
+      "icy_metaint": 16384,
+      "verified": true
+    },
+    {
+      "id": "digifm",
+      "name": "Digi FM",
+      "group": "Commercial",
+      "category": "Generalist",
+      "stream": "http://edge76.rdsnet.ro:84/digifm/digifm.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "profm",
+      "name": "ProFM",
+      "group": "Commercial",
+      "category": "Mainstream Hits",
+      "stream": "http://edge126.rdsnet.ro:84/profm/profm.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "europafm",
+      "name": "Europa FM",
+      "group": "Commercial",
+      "category": "Generalist",
+      "stream": "http://astreaming.europafm.ro:8000/europafm_aacp48k",
+      "codec": "AAC",
+      "bitrate_kbps": 64,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "rfiromania",
+      "name": "RFI România",
+      "group": "News",
+      "category": "News / Talk",
+      "stream": "https://asculta.rfi.ro/live.aac",
+      "codec": "AAC+",
+      "bitrate_kbps": 64,
+      "icy_metaint": 16384,
+      "verified": true
+    },
+    {
+      "id": "rra",
+      "name": "Radio România Actualități",
+      "group": "Radio România",
+      "category": "Public / Generalist / News",
+      "stream": "https://stream4.srr.ro:8443/romania-actualitati",
+      "codec": "AAC+",
+      "bitrate_kbps": 96,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "rrcultural",
+      "name": "Radio România Cultural",
+      "group": "Radio România",
+      "category": "Public / Culture",
+      "stream": "http://stream2.srr.ro:8012/;",
+      "codec": "MP3",
+      "bitrate_kbps": 256,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "rrmuzical",
+      "name": "Radio România Muzical",
+      "group": "Radio România",
+      "category": "Public / Classical",
+      "stream": "https://stream4.srr.ro:8443/romania-muzical",
+      "codec": "AAC+",
+      "bitrate_kbps": 96,
+      "icy_metaint": 16000,
+      "verified": true
+    },
+    {
+      "id": "antenasatelor",
+      "name": "Radio România Antena Satelor",
+      "group": "Radio România",
+      "category": "Public / Generalist",
+      "stream": "http://stream2.srr.ro:8042/;",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "bucurestifm",
+      "name": "București FM",
+      "group": "Radio România Regional",
+      "category": "Regional",
+      "stream": "http://stream2.srr.ro:8030/;",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "radiocluj",
+      "name": "Radio România Cluj",
+      "group": "Radio România Regional",
+      "category": "Regional",
+      "stream": "http://89.238.227.6:8384/;",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "radioiasi",
+      "name": "Radio România Iași FM",
+      "group": "Radio România Regional",
+      "category": "Regional",
+      "stream": "http://89.238.227.6:8202/;",
+      "codec": "AAC+",
+      "bitrate_kbps": 128,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "radiotimisoara",
+      "name": "Radio România Timișoara FM",
+      "group": "Radio România Regional",
+      "category": "Regional",
+      "stream": "http://89.238.227.6:8362/;",
+      "codec": "AAC+",
+      "bitrate_kbps": 96,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "radiooltenia",
+      "name": "Radio România Oltenia Craiova",
+      "group": "Radio România Regional",
+      "category": "Regional",
+      "stream": "http://stream2.srr.ro:8370/;",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "icy_metaint": 32768,
+      "verified": true
+    },
+    {
+      "id": "radioconstanta",
+      "name": "Radio România Constanța FM",
+      "group": "Radio România Regional",
+      "category": "Regional",
+      "stream": "http://89.238.227.6:8330/;",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "icy_metaint": 32768,
+      "verified": true
+    }
+  ]
+}

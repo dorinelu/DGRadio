@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "AT",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "oe3",
+      "name": "Hitradio Ö3",
+      "group": "ORF",
+      "category": "Public / Pop / Hits",
+      "stream": "https://orf-live.ors-shoutcast.at/oe3-q2a",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://oe3.orf.at"
+    },
+    {
+      "id": "fm4",
+      "name": "FM4",
+      "group": "ORF",
+      "category": "Public / Alternative",
+      "stream": "https://orf-live.ors-shoutcast.at/fm4-q2a",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://fm4.orf.at"
+    },
+    {
+      "id": "oe1",
+      "name": "Ö1",
+      "group": "ORF",
+      "category": "Public / Culture / News",
+      "stream": "http://orf-live.ors-shoutcast.at/oe1-q2a",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://oe1.orf.at"
+    },
+    {
+      "id": "radiowien",
+      "name": "Radio Wien",
+      "group": "ORF",
+      "category": "Public / Regional / AC",
+      "stream": "https://orf-live.ors-shoutcast.at/wie-q2a",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://wien.orf.at"
+    },
+    {
+      "id": "radionoe",
+      "name": "Radio Niederösterreich",
+      "group": "ORF",
+      "category": "Public / Regional / AC",
+      "stream": "https://orf-live.ors-shoutcast.at/noe-q2a",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://noe.orf.at"
+    }
+  ]
+}

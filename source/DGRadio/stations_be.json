@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "BE",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "vrtr1",
+      "name": "VRT Radio 1",
+      "group": "VRT",
+      "category": "Public / News / Talk",
+      "stream": "http://icecast.vrtcdn.be/radio1-high.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radio1.be"
+    },
+    {
+      "id": "vrtr2",
+      "name": "VRT Radio 2",
+      "group": "VRT",
+      "category": "Public / AC / Regional",
+      "stream": "http://icecast.vrtcdn.be/ra2ant-high.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radio2.be"
+    },
+    {
+      "id": "mnm",
+      "name": "MNM",
+      "group": "VRT",
+      "category": "Public / Pop / Hits",
+      "stream": "http://icecast.vrtcdn.be/mnm-high.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://mnm.be"
+    },
+    {
+      "id": "stubru",
+      "name": "Studio Brussel",
+      "group": "VRT",
+      "category": "Public / Alternative / Rock",
+      "stream": "http://icecast.vrtcdn.be/stubru-high.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://stubru.be"
+    },
+    {
+      "id": "klara",
+      "name": "Klara",
+      "group": "VRT",
+      "category": "Public / Classical / Culture",
+      "stream": "http://icecast.vrtcdn.be/klara-high.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://klara.be"
+    }
+  ]
+}

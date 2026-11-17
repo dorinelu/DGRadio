@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "SE",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "srp1",
+      "name": "Sveriges Radio P1",
+      "group": "Sveriges Radio",
+      "category": "Public / News / Talk",
+      "stream": "https://live1.sr.se/p1-aac-320",
+      "codec": "AAC",
+      "bitrate_kbps": 320,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://sverigesradio.se"
+    },
+    {
+      "id": "srp2",
+      "name": "Sveriges Radio P2",
+      "group": "Sveriges Radio",
+      "category": "Public / Classical / Culture",
+      "stream": "https://live1.sr.se/p2-aac-320",
+      "codec": "AAC",
+      "bitrate_kbps": 320,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://sverigesradio.se"
+    },
+    {
+      "id": "srp3",
+      "name": "Sveriges Radio P3",
+      "group": "Sveriges Radio",
+      "category": "Public / Pop / Youth",
+      "stream": "https://live1.sr.se/p3-mp3-96",
+      "codec": "MP3",
+      "bitrate_kbps": 96,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://sverigesradio.se"
+    },
+    {
+      "id": "srp4sthlm",
+      "name": "Sveriges Radio P4 Stockholm",
+      "group": "Sveriges Radio",
+      "category": "Public / Regional / AC",
+      "stream": "https://edge1.sr.se/p4sth-aac-320",
+      "codec": "AAC",
+      "bitrate_kbps": 320,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://sverigesradio.se"
+    },
+    {
+      "id": "srp4gbg",
+      "name": "Sveriges Radio P4 Göteborg",
+      "group": "Sveriges Radio",
+      "category": "Public / Regional / AC",
+      "stream": "https://edge1.sr.se/p4got-aac-320",
+      "codec": "AAC",
+      "bitrate_kbps": 320,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://sverigesradio.se"
+    }
+  ]
+}

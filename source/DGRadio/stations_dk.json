@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "DK",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "drp1",
+      "name": "DR P1",
+      "group": "DR",
+      "category": "Public / News / Talk",
+      "stream": "http://live-icy.gss.dr.dk:80/A/A03H.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 192,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://dr.dk"
+    },
+    {
+      "id": "drp2",
+      "name": "DR P2",
+      "group": "DR",
+      "category": "Public / Classical / Culture",
+      "stream": "http://live-icy.gss.dr.dk:8000/A/A04H.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 320,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://dr.dk"
+    },
+    {
+      "id": "drp3",
+      "name": "DR P3",
+      "group": "DR",
+      "category": "Public / Pop / Alternative",
+      "stream": "http://live-icy.gss.dr.dk:8000/A/A05H.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 192,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://dr.dk"
+    },
+    {
+      "id": "drp4",
+      "name": "DR P4 København",
+      "group": "DR",
+      "category": "Public / Regional / AC",
+      "stream": "http://live-icy.gss.dr.dk:8000/A/A08H.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 192,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://dr.dk"
+    },
+    {
+      "id": "drp5",
+      "name": "DR P5",
+      "group": "DR",
+      "category": "Public / Oldies",
+      "stream": "http://live-icy.gss.dr.dk:8000/A/A25H.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 192,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://dr.dk"
+    }
+  ]
+}

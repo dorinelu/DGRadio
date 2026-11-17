@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "FI",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "yler1",
+      "name": "Yle Radio 1",
+      "group": "Yle",
+      "category": "Public / Culture / Classical",
+      "stream": "https://icecast.live.yle.fi/radio/YleRadio1/icecast.audio",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://yle.fi"
+    },
+    {
+      "id": "ylersuomi",
+      "name": "Yle Radio Suomi",
+      "group": "Yle",
+      "category": "Public / Generalist / Regional",
+      "stream": "http://icecast.live.yle.fi/radio/YleRS/icecast.audio",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://yle.fi"
+    },
+    {
+      "id": "ylex",
+      "name": "YleX",
+      "group": "Yle",
+      "category": "Public / Pop / Youth",
+      "stream": "https://icecast.live.yle.fi/radio/YleX/icecast.audio",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://yle.fi"
+    },
+    {
+      "id": "x3m",
+      "name": "Yle X3M",
+      "group": "Yle",
+      "category": "Public / Swedish / Pop",
+      "stream": "https://icecast.live.yle.fi/radio/YleX3M/icecast.audio",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://yle.fi"
+    },
+    {
+      "id": "vega",
+      "name": "Yle Vega",
+      "group": "Yle",
+      "category": "Public / Swedish / Generalist",
+      "stream": "https://icecast.live.yle.fi/radio/YleVega/icecast.audio",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://yle.fi"
+    }
+  ]
+}
