@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "HU",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "retroradio",
+      "name": "Retro Rádió",
+      "group": "Retro Radio",
+      "category": "Oldies / Hits",
+      "stream": "https://icast.connectmedia.hu/5001/live.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://retroradio.hu"
+    },
+    {
+      "id": "radio1hu",
+      "name": "Rádió 1",
+      "group": "Radio 1",
+      "category": "Pop / Hits",
+      "stream": "https://icast.connectmedia.hu/5201/live.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radio1.hu"
+    },
+    {
+      "id": "kossuth",
+      "name": "Kossuth Rádió",
+      "group": "MTVA",
+      "category": "Public / News / Talk",
+      "stream": "http://mr-stream.mediaconnect.hu/4734/mr1.aac",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://mediaklikk.hu"
+    },
+    {
+      "id": "petofi",
+      "name": "Petőfi Rádió",
+      "group": "MTVA",
+      "category": "Public / Pop / Music",
+      "stream": "http://mr-stream.mediaconnect.hu/4738/mr2.aac",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://mediaklikk.hu"
+    },
+    {
+      "id": "bartok",
+      "name": "Bartók Rádió",
+      "group": "MTVA",
+      "category": "Public / Classical",
+      "stream": "http://mr-stream.mediaconnect.hu/4741/mr3.aac",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://mediaklikk.hu"
+    }
+  ]
+}

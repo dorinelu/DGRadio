@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "default": "ro",
+  "countries": [
+    {
+      "code": "ro",
+      "name": "Romania",
+      "file": "stations_ro.json",
+      "itunes_country": "RO"
+    },
+    {
+      "code": "de",
+      "name": "Germany",
+      "file": "stations_de.json",
+      "itunes_country": "DE"
+    },
+    {
+      "code": "it",
+      "name": "Italy",
+      "file": "stations_it.json",
+      "itunes_country": "IT"
+    },
+    {
+      "code": "fr",
+      "name": "France",
+      "file": "stations_fr.json",
+      "itunes_country": "FR"
+    },
+    {
+      "code": "es",
+      "name": "Spain",
+      "file": "stations_es.json",
+      "itunes_country": "ES"
+    },
+    {
+      "code": "gb",
+      "name": "United Kingdom",
+      "file": "stations_gb.json",
+      "itunes_country": "GB"
+    },
+    {
+      "code": "nl",
+      "name": "Netherlands",
+      "file": "stations_nl.json",
+      "itunes_country": "NL"
+    },
+    {
+      "code": "be",
+      "name": "Belgium",
+      "file": "stations_be.json",
+      "itunes_country": "BE"
+    },
+    {
+      "code": "at",
+      "name": "Austria",
+      "file": "stations_at.json",
+      "itunes_country": "AT"
+    },
+    {
+      "code": "ch",
+      "name": "Switzerland",
+      "file": "stations_ch.json",
+      "itunes_country": "CH"
+    },
+    {
+      "code": "pl",
+      "name": "Poland",
+      "file": "stations_pl.json",
+      "itunes_country": "PL"
+    },
+    {
+      "code": "cz",
+      "name": "Czechia",
+      "file": "stations_cz.json",
+      "itunes_country": "CZ"
+    },
+    {
+      "code": "hu",
+      "name": "Hungary",
+      "file": "stations_hu.json",
+      "itunes_country": "HU"
+    },
+    {
+      "code": "pt",
+      "name": "Portugal",
+      "file": "stations_pt.json",
+      "itunes_country": "PT"
+    },
+    {
+      "code": "gr",
+      "name": "Greece",
+      "file": "stations_gr.json",
+      "itunes_country": "GR"
+    },
+    {
+      "code": "se",
+      "name": "Sweden",
+      "file": "stations_se.json",
+      "itunes_country": "SE"
+    },
+    {
+      "code": "no",
+      "name": "Norway",
+      "file": "stations_no.json",
+      "itunes_country": "NO"
+    },
+    {
+      "code": "dk",
+      "name": "Denmark",
+      "file": "stations_dk.json",
+      "itunes_country": "DK"
+    },
+    {
+      "code": "fi",
+      "name": "Finland",
+      "file": "stations_fi.json",
+      "itunes_country": "FI"
+    }
+  ]
+}

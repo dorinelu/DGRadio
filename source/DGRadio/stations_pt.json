@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "PT",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "comercial",
+      "name": "Rádio Comercial",
+      "group": "Bauer Media",
+      "category": "Pop / Hits",
+      "stream": "https://stream-icy.bauermedia.pt/comercial.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radiocomercial.pt"
+    },
+    {
+      "id": "rfmpt",
+      "name": "RFM",
+      "group": "Renascença",
+      "category": "Pop / Hits",
+      "stream": "https://23603.live.streamtheworld.com/RFMAAC.aac",
+      "codec": "AAC",
+      "bitrate_kbps": 96,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rfm.sapo.pt"
+    },
+    {
+      "id": "antena1",
+      "name": "Antena 1",
+      "group": "RTP",
+      "category": "Public / Generalist",
+      "stream": "https://radiocast.rtp.pt/antena180a.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rtp.pt"
+    },
+    {
+      "id": "antena2",
+      "name": "Antena 2",
+      "group": "RTP",
+      "category": "Public / Classical / Culture",
+      "stream": "https://radiocast.rtp.pt/antena280a.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rtp.pt"
+    },
+    {
+      "id": "antena3",
+      "name": "Antena 3",
+      "group": "RTP",
+      "category": "Public / Alternative / Pop",
+      "stream": "https://radiocast.rtp.pt/antena380a.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rtp.pt"
+    }
+  ]
+}

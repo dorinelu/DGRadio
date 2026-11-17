@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "GB",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "bbcr1",
+      "name": "BBC Radio 1",
+      "group": "BBC",
+      "category": "Public / Pop / Hits",
+      "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_one",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://bbc.co.uk"
+    },
+    {
+      "id": "bbcr2",
+      "name": "BBC Radio 2",
+      "group": "BBC",
+      "category": "Public / AC / Entertainment",
+      "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_two",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://bbc.co.uk"
+    },
+    {
+      "id": "bbcr4",
+      "name": "BBC Radio 4",
+      "group": "BBC",
+      "category": "Public / News / Talk",
+      "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://bbc.co.uk"
+    },
+    {
+      "id": "bbc6",
+      "name": "BBC Radio 6 Music",
+      "group": "BBC",
+      "category": "Public / Alternative Music",
+      "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_6music",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://bbc.co.uk"
+    },
+    {
+      "id": "bbcws",
+      "name": "BBC World Service",
+      "group": "BBC",
+      "category": "Public / World News",
+      "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://bbc.co.uk"
+    },
+    {
+      "id": "capitaluk",
+      "name": "Capital UK",
+      "group": "Global",
+      "category": "Pop / Hits",
+      "stream": "https://media-ssl.musicradio.com/CapitalUK",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://capitalfm.com"
+    }
+  ]
+}

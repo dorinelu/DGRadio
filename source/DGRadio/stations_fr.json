@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "FR",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "franceinter",
+      "name": "France Inter",
+      "group": "Radio France",
+      "category": "Public / Generalist",
+      "stream": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radiofrance.fr"
+    },
+    {
+      "id": "franceinfo",
+      "name": "franceinfo",
+      "group": "Radio France",
+      "category": "Public / News",
+      "stream": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://franceinfo.fr"
+    },
+    {
+      "id": "fip",
+      "name": "FIP",
+      "group": "Radio France",
+      "category": "Public / Music",
+      "stream": "https://icecast.radiofrance.fr/fip-midfi.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radiofrance.fr"
+    },
+    {
+      "id": "franceculture",
+      "name": "France Culture",
+      "group": "Radio France",
+      "category": "Public / Culture",
+      "stream": "https://icecast.radiofrance.fr/franceculture-midfi.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radiofrance.fr"
+    },
+    {
+      "id": "europe1",
+      "name": "Europe 1",
+      "group": "Lagardere",
+      "category": "News / Talk / Generalist",
+      "stream": "https://stream.europe1.fr/europe1.aac",
+      "codec": "AAC",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://europe1.fr"
+    }
+  ]
+}

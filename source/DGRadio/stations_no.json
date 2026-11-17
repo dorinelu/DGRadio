@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "NO",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "nrkp1",
+      "name": "NRK P1",
+      "group": "NRK",
+      "category": "Public / Generalist",
+      "stream": "http://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_h",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nrk.no"
+    },
+    {
+      "id": "nrkp2",
+      "name": "NRK P2",
+      "group": "NRK",
+      "category": "Public / Culture / Talk",
+      "stream": "http://lyd.nrk.no/nrk_radio_p2_mp3_h",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nrk.no"
+    },
+    {
+      "id": "nrkp3",
+      "name": "NRK P3",
+      "group": "NRK",
+      "category": "Public / Pop / Youth",
+      "stream": "http://lyd.nrk.no/nrk_radio_p3_mp3_h",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nrk.no"
+    },
+    {
+      "id": "nrkmp3",
+      "name": "NRK mP3",
+      "group": "NRK",
+      "category": "Public / Hits",
+      "stream": "http://lyd.nrk.no/nrk_radio_mp3_mp3_h",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nrk.no"
+    },
+    {
+      "id": "nrkp13",
+      "name": "NRK P13",
+      "group": "NRK",
+      "category": "Public / Alternative / Rock",
+      "stream": "http://lyd.nrk.no/nrk_radio_p13_mp3_h",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://nrk.no"
+    },
+    {
+      "id": "p4norge",
+      "name": "P4 Norge",
+      "group": "P4",
+      "category": "Pop / AC / Generalist",
+      "stream": "https://p4.p4groupaudio.com/P04_MM",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://p4.no"
+    }
+  ]
+}

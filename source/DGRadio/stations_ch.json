@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.1",
+  "country": "CH",
+  "updated": "2026-10-06",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "srf1",
+      "name": "SRF 1",
+      "group": "SRG SSR",
+      "category": "Public / Generalist",
+      "stream": "http://stream.srg-ssr.ch/m/drs1/mp3_128",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://srf.ch"
+    },
+    {
+      "id": "srf3",
+      "name": "SRF 3",
+      "group": "SRG SSR",
+      "category": "Public / Pop / Hits",
+      "stream": "http://stream.srg-ssr.ch/m/drs3/mp3_128",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://srf.ch"
+    },
+    {
+      "id": "swisspop",
+      "name": "Radio Swiss Pop",
+      "group": "SRG SSR",
+      "category": "Public / Pop",
+      "stream": "http://stream.srg-ssr.ch/m/rsp/mp3_128",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radioswisspop.ch"
+    },
+    {
+      "id": "swissclassic",
+      "name": "Radio Swiss Classic",
+      "group": "SRG SSR",
+      "category": "Public / Classical",
+      "stream": "https://stream.srg-ssr.ch/srgssr/rsc_de/mp3/128",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radioswissclassic.ch"
+    },
+    {
+      "id": "swissjazz",
+      "name": "Radio Swiss Jazz",
+      "group": "SRG SSR",
+      "category": "Public / Jazz",
+      "stream": "https://stream.srg-ssr.ch/srgssr/rsj/mp3/128",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radioswissjazz.ch"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "project": "DG Radio",
+  "version": "1.2",
+  "country": "ES",
+  "updated": "2026-10-09",
+  "policy": {
+    "mainstream_only": true,
+    "no_thematic_channels": false,
+    "receiver_verified": false,
+    "curated_verified_sources": true
+  },
+  "stations": [
+    {
+      "id": "los40",
+      "name": "LOS40",
+      "group": "PRISA",
+      "category": "Pop / Hits",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://los40.com"
+    },
+    {
+      "id": "cadenaser",
+      "name": "Cadena SER",
+      "group": "PRISA",
+      "category": "News / Talk / Generalist",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://cadenaser.com"
+    },
+    {
+      "id": "cadena100",
+      "name": "Cadena 100",
+      "group": "COPE",
+      "category": "Pop / AC",
+      "stream": "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://cadena100.es"
+    },
+    {
+      "id": "cope",
+      "name": "COPE",
+      "group": "COPE",
+      "category": "News / Talk / Generalist",
+      "stream": "http://flucast-b01-06.flumotion.com/cope/net1.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://cope.es"
+    },
+    {
+      "id": "rockfm_es",
+      "name": "Rock FM",
+      "group": "COPE",
+      "category": "Rock",
+      "stream": "http://rockfm-streamers-mp3.flumotion.com/cope/rockfm.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "verified": true,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://rockfm.fm"
+    },
+    {
+      "id": "europafm_es",
+      "name": "Europa FM España",
+      "group": "Atresmedia",
+      "category": "Pop / Rock",
+      "stream": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+      "codec": "AAC",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://europafm.com"
+    },
+    {
+      "id": "hitfm_es",
+      "name": "HIT FM",
+      "group": "Kiss Media",
+      "category": "Dance / Hits",
+      "stream": "https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://hitfm.es"
+    },
+    {
+      "id": "cadenadial",
+      "name": "Cadena Dial",
+      "group": "PRISA",
+      "category": "Spanish Pop",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://cadenadial.com"
+    },
+    {
+      "id": "radiole",
+      "name": "Radiolé",
+      "group": "PRISA",
+      "category": "Spanish / Flamenco",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://radiole.com"
+    },
+    {
+      "id": "ondacero",
+      "name": "Onda Cero",
+      "group": "Atresmedia",
+      "category": "News / Talk",
+      "stream": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
+      "codec": "AAC",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://ondacero.es"
+    },
+    {
+      "id": "flaixfm",
+      "name": "Flaix FM",
+      "group": "Flaix",
+      "category": "Dance / Electronic",
+      "stream": "https://stream.flaixfm.cat/icecast",
+      "codec": "Unknown",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://flaixfm.cat"
+    },
+    {
+      "id": "ibizaglobal",
+      "name": "Ibiza Global Radio",
+      "group": "Ibiza Global",
+      "category": "Electronic / House",
+      "stream": "https://listenssl.ibizaglobalradio.com:8024/stream",
+      "codec": "MP3",
+      "bitrate_kbps": null,
+      "verified": false,
+      "logo": "https://www.google.com/s2/favicons?sz=256&domain_url=https://ibizaglobalradio.com"
+    }
+  ]
+}
